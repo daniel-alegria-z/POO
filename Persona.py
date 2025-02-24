@@ -25,4 +25,4 @@ class Persona:
         self.__direccion=direccion
 
     def __str__(self):
-        print(f"El nombre del estudiante es: {self.set_nombre} \nSu edad es: {self.set_edad} \nSu dirección es: {self.set_direccion}\n\n")
+        print(f"El nombre del estudiante es: {self.set_nombre} \nSu edad es: {self.set_edad} \nSu dirección es: {self.set_direccion}")

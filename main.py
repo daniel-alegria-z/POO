@@ -10,6 +10,6 @@ def registrar_estudiante():
     course=input("El curso es: ")
 
     estudiante=Estudiante(name, age, address, course)
-    lista_estudiante.append(Estudiante)
+    lista_estudiante.append(estudiante)
 
     print("Estudiante registrado con éxito")

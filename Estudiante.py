@@ -13,4 +13,4 @@ class Estudiante(Persona):
 
     
     def __str__(self):
-        print(f"Los datos del estudiante son los siguientes: {super().__str__()}\nY su curso es: {self.get_curso}")
+        print(f"Los datos del estudiante son los siguientes: {super().__str__()}\nY su curso es: {self.get_curso} ")

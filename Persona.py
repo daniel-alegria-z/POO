@@ -16,10 +16,13 @@ class Persona:
     
     def set_edad(self, edad):
         self.__edad=edad
-        
+
 
     def get_direccion(self):
         return self.__direccion
     
     def set_direccion(self, direccion):
         self.__direccion=direccion
+
+    def __str__(self):
+        print(f"El nombre del estudiante es: {self.set_nombre} \nSu edad es: {self.set_edad} \nSu dirección es: {self.set_direccion}\n\n")

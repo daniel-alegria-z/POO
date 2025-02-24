@@ -1,1 +1,1 @@
-Persona:
+Persona:.

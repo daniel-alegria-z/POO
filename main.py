@@ -64,10 +64,10 @@ while True:
         mostrar_estudiante()
     
     elif op == '5':
-        print('saliendo del sistemas')
+        print('Saliendo del sistema')
         exit()
     else:
-        print('opcion invalida')
+        print('Opción inválida')
     """elif op == '3':
        nombre = input("Ingresa el nombre del estudiante a actualizar: ")
        try:
